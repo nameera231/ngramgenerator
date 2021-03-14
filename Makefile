@@ -11,8 +11,8 @@ ngram: ngram.c
 	$(CC) $(CFLAGS) -o ngram ngram.c
 
 zip:
-	@echo "Generating ngram.zip file to submit to Gradescope..."
+	@echo "Generating ngram.zip file..."
 	@zip -q -r ngram.zip . -x .git/\* .vscode/\* .clang-format .gitignore ngram
-	@echo "Done. Download ngram.zip and upload it to Gradescope."
+	@echo "Done. Download ngram.zip."
 
 .PHONY: all clean zip
