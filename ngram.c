@@ -18,9 +18,7 @@ int main(int argc, char** argv) {
     exit(1);
   }
 
-  // TODO: read from standard input and print out ngrams until we reach the end of the input
-
-
+  //read from standard input and print out ngrams until we reach the end of the input
 
   // create a buffer to place the N grams in
   char str[N];
